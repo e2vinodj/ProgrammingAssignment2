@@ -9,12 +9,12 @@ makeCacheMatrix <- function(x = matrix()) {
 	invX <- NULL
 	set <- function(y) {
 	        if  (isTRUE(all.equal(x,y)))  {
-				message("No change in matrix structure and data")
-			} 
-			else {
-				x <<- y
-				invX <<- NULL
-			}
+			message("No change in matrix structure and data")
+		} 
+		else {
+			x <<- y
+			invX <<- NULL
+		}
         }
 	
 	get <- function() x
