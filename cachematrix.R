@@ -38,9 +38,9 @@ cacheSolve <- function(x, ...) {
         return(invX)
     }
     data <- x$get()
-	invX <- solve(data)
-	x$setinvMatrrix(invX)
-	invX
+    invX <- solve(data)
+    x$setinvMatrrix(invX)
+    invX
 		
 }
 
