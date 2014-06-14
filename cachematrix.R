@@ -2,8 +2,8 @@
 ## 	1. set: Sets the value of the Matrix only when they are different (either values or DIM)
 ##             or the very first time.
 ## 	2. get: Gets the value of the Matrix.
-## 	3. setinvMatrrix: Set the inverse of the Matrix (caching).
-## 	4. getinvMatrix: Get the inverse of the Matrix.
+## 	3. setinvMatrrix: Sets the inverse of the Matrix (caching).
+## 	4. getinvMatrix: Gets the inverse of the Matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
 	invX <- NULL
