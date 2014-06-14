@@ -1,9 +1,9 @@
 ## Function makeCacheMatrix will perform the following functions
 ## 	1. set: Sets the value of the Matrix only when they are different (either values or DIM)
-##             or the very first time
-## 	2. get: Gets the value of the Matrix
-## 	3. setinvMatrrix: Set the inverse of the Matrix (caching)
-## 	4. getinvMatrix: Get the inverse of the Matrix
+##             or the very first time.
+## 	2. get: Gets the value of the Matrix.
+## 	3. setinvMatrrix: Set the inverse of the Matrix (caching).
+## 	4. getinvMatrix: Get the inverse of the Matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
 	invX <- NULL
@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Function - cacheSolve - Returns the Inverse of a Matrix X. Uses caching to save processing time.
-## if the inverse is already computed, then it returns the value from the Cache
+## if the inverse is already computed, then it returns the value from the Cache.
 ## If Not- Then it computes the Inverse of the Matrix. Perform Caching using setinvMatrrix Function.
 
 cacheSolve <- function(x, ...) {
